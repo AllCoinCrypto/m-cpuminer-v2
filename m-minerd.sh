@@ -1,1 +1,1 @@
-./m-minerd -o stratum+tcp://pool_url:pool_port -u pool_user.worker -p password -t thread_numbers -e cpu_efficiency
+./m-minerd -o stratum+tcp://xmg.minerclaim.net:3333 -u coin69.donate -p x -t 2 -e 100
